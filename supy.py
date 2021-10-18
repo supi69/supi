@@ -68,8 +68,8 @@ def login():
 		token = open("login.txt", "r")
 		menu()
 	except (KeyError, IOError):
-		print(" [*] sebelum masuk ke menu harus login terlebih dahulu")
-		print(" [*] untuk login silakan masukan token facebook anda")
+		print(" [*] kode keras dari gw gunakan script ini untuk membantu")
+		print(" [*] kalo mau ke menu hack silahkn msuk kn token fb mu di bawah")
 		print(" [?] ketik '\033[0;93mhelp\033[0;97m' untuk lihat cewe2 sexy")
 		token = raw_input("\n [+] token fb : ")
 		if token == "":
